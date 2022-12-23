@@ -1,0 +1,154 @@
+body{
+    background-color: #C4DFAA;
+}
+.title{  
+  display: block;
+  text-align: center;
+  padding: 14px;
+  border-style: solid;
+  border-width:5px;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  background-color: #3A8891;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+}
+.container{
+    position: relative;
+    text-align:center;
+}
+.pic{
+    display: block;
+    width: 100%;
+    height: 500px;
+    filter:blur(5px);
+    transition: filter .3s ease;  
+}
+.pic:hover{
+    filter: blur(0)
+}
+.info{
+    position: absolute;
+    bottom: 3px;
+    left: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.a{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #074979;
+    display: block;
+    color: aqua;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    transition: color .3s ease;
+}
+.a:hover{  
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+
+.b{
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #074979;
+    display: block;
+    color: aqua;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    transition: color .3s ease;
+}
+.b:hover{  
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+.cont{
+     height: 250px;
+}
+.ABOUT{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.rating{
+       text-align: left;
+       margin-left: 60px;
+       font-size: 30px;
+}
+.c{
+    height: 400px;
+    margin-bottom: 50px;
+    
+}
+.pg{
+    width: 400px;
+    text-align: center;
+}
+.light{
+    width: 300px;
+    text-align: center;
+}
+.fox{
+    width: 300px;
+    text-align: center;
+}
+.d{
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #074979;
+    display: block;
+    color: aqua;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    transition: color .3s ease;
+}
+.d:hover{  
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+.video{
+    text-align: center;
+
+}
+.react{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #074979;
+    display: block;
+    color: aqua;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    font-size: 20px;
+    display: block
+}
+.react:hover{  
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+
+.rate{
+    text-align: center;
+    font-size: 20px;
+}
